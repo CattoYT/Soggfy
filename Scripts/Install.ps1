@@ -2,7 +2,7 @@ $base = $PSScriptRoot
 $temp = "$base\temp";
 $SpotifyDir = "$env:APPDATA\Spotify"
 
-$SpotifyInstallerUrl = "https://upgrade.scdn.co/upgrade/client/win32-x86/spotify_installer-1.2.31.1205.g4d59ad7c-1561.exe"
+$SpotifyInstallerUrl = "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.32.985.g3be2709c-2747.exe"
 $SpotifyVersion = $SpotifyInstallerUrl -replace '.+installer-(.+)\.g.+', '$1'
 $SpotifyVersionWithCommit = $SpotifyInstallerUrl -replace '.+installer-(.+\.g.+)\.exe', '$1'
 
